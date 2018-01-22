@@ -4,6 +4,6 @@ go:
   - master
 
 install:
-	- go get github.com/araddon/gou
+  - go get github.com/araddon/gou
   - go get github.com/bmizerany/assert
   - go test -v .
